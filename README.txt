@@ -1,3 +1,6 @@
-Potrebno je prvo u Microsoft SQL Server ucitati .bak fajl ili napraviti bazu sa imenom 
-"jj170586" i zatim generisati kod iz skripte jj170586.sql. Nakon toga neophodno je napraviti Ant projekat u Netbeans okruzenju.
-U package deo aplikacije se prevuce "student" folder, u libraries se ukljuce jarovi za jdbc i javni test. Startna tacka programa je main metoda iz StudentMain.java klase.
+To run the application, follow these steps:
+1) Open Microsoft SQL Server Management Studio and restore the database from jj170586.bak file or generate a new database from jj170586.sql script file.
+2) Create a new Ant project in Netbeans IDE
+3) Create package "student". All files from student directory copy to "student" package
+4) Add necessary libraries and jars -> SAB_project_2021_public_test.jar, mssql-jdbc-9.2.1.jre11.jar from jar files directory
+5) Start application from class StudentMain.java
